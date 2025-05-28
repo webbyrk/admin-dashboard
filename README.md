@@ -1,26 +1,42 @@
-# Modern Dashboard UI
+# 🌐 Modern Dashboard UI
 
-A sleek and responsive web dashboard UI built with **HTML**, **CSS**, **JavaScript**, and **Bootstrap 5**. This template supports **dark and light modes**, features dynamic charts using **ApexCharts** and **Chart.js**, and includes a clean, user-friendly layout ideal for analytics or admin dashboards.
-
----
-
-## 🔥 Features
-
-- 🌗 **Dark and Light Mode Toggle**
-- 📊 Interactive Charts with ApexCharts & Chart.js
-- 🧩 Modular and Scalable Code Structure
-- 📱 Fully Responsive (Mobile-Friendly)
-- 🎨 Clean UI with Bootstrap 5
-- 🖱️ Custom Scrollbars using SimpleBar.js
-- ⚡ Fast-loading and lightweight
+A sleek and responsive web dashboard interface built using **HTML**, **CSS**, **JavaScript**, and **Bootstrap 5**. This modern template includes a built-in **dark/light mode toggle**, dynamic charting with **ApexCharts** and **Chart.js**, and a clean, intuitive layout designed for admin panels, analytics dashboards, or data-driven web apps.
 
 ---
 
-## 🚀 Technologies Used
+## ✨ Key Features
 
-- **HTML5**
-- **CSS3 / Bootstrap 5**
-- **JavaScript / jQuery**
-- **ApexCharts**
-- **Chart.js**
-- **SimpleBar**
+- 🌗 **Dark & Light Mode Toggle**  
+  Easily switch between dark and light themes for optimal user experience.
+
+- 📊 **Interactive Data Visualizations**  
+  Integrated with **ApexCharts** and **Chart.js** for dynamic, responsive charts.
+
+- 📐 **Modular Code Architecture**  
+  Well-organized structure for easy customization and scalability.
+
+- 📱 **Fully Responsive Layout**  
+  Optimized for desktop, tablet, and mobile devices.
+
+- 🎨 **Modern UI with Bootstrap 5**  
+  Utilizes Bootstrap’s grid system and utility classes for clean design and flexibility.
+
+- 🖱️ **Custom Scrollbars**  
+  Enhanced scrolling experience using **SimpleBar.js**.
+
+- ⚡ **Lightweight & High Performance**  
+  Minimal dependencies and efficient loading for fast performance.
+
+---
+
+## 🚀 Tech Stack
+
+Built using the latest front-end tools and libraries:
+
+- **HTML5** – Markup language for structuring content  
+- **CSS3 / Bootstrap 5** – Styling and layout framework  
+- **JavaScript / jQuery** – Front-end interactivity  
+- **ApexCharts** – Advanced charting library  
+- **Chart.js** – Lightweight data visualization  
+- **SimpleBar.js** – Custom scrollbar styling
+
