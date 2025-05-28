@@ -1,6 +1,6 @@
 # 🌐 Modern Dashboard UI
 
-A sleek and responsive web dashboard interface built using **HTML**, **CSS**, **JavaScript**, and **Bootstrap 5**. This modern template includes a built-in **dark/light mode toggle**, dynamic charting with **ApexCharts** and **Chart.js**, and a clean, intuitive layout designed for admin panels, analytics dashboards, or data-driven web apps.
+A sleek and responsive web dashboard interface built using **HTML**, **CSS**, **JavaScript**, and **Bootstrap 5**. This modern template includes a built-in **dark/light mode toggle**, dynamic charting with **ApexCharts** and **Chart.js**.
 
 ---
 
