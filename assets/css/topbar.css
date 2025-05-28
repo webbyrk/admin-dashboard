@@ -1,0 +1,110 @@
+/* Start: Topbar */
+.page-wrapper.toggled .top-header {
+	left: 281px !important;
+}
+
+.page-wrapper .page-content .top-header {
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 999;
+	left: 0;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+
+.page-wrapper .page-content .top-header .header-bar {
+	background: var(--main-color);
+	height: 92px;
+	-webkit-box-shadow: 78px 29px 60px 0px rgba(36, 39, 38, 0.08);
+	box-shadow: 78px 29px 60px 0px rgba(36, 39, 38, 0.08);
+	position: relative;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 24px 40px;
+}
+
+.header-bar-btns-ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+
+.header-bar-btns-ul .header-bar-btns-li {
+	display: inline-flex;
+}
+
+.header-bar-btns-ul .header-bar-btns-li .header-bar-btns-li-link {
+	min-height: 40px;
+	min-width: 40px;
+	background-color: #fff;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 15px;
+	position: relative;
+}
+
+.header-bar-btns-ul .header-bar-btns-li:last-child .header-bar-btns-li-link {
+	margin-right: 0;
+}
+
+.light-dark-button {
+	background: var(--light-dark-button);
+	padding: 4px;
+	border-radius: 8px;
+}
+
+.light-dark-button .header-bar-btns-li .header-bar-btns-li-link:not(.active) {
+	background-color: transparent;
+}
+
+body[data-bs-theme="dark"] .light-dark-button .header-bar-btns-li .header-bar-btns-li-link:not(.active) svg,
+body[data-bs-theme="dark"] .light-dark-button .header-bar-btns-li .header-bar-btns-li-link:not(.active) svg * {
+	fill: #fff;
+}
+
+.topbar-badge {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	min-width: 20px;
+	min-height: 20px;
+	background: #ff5630;
+	border-radius: 40px;
+	font-size: 12px;
+	color: #fff;
+	top: 0;
+	right: 0;
+}
+
+
+.topbar-user-img {
+	min-width: 40px;
+	min-height: 40px;
+	background-position: center;
+	background-size: cover;
+	border-radius: 50px;
+	background-color: #FFCD66;
+}
+
+@media screen and (max-width: 1199px) {
+	.page-wrapper.toggled .top-header {
+		left: 0 !important;
+	}
+
+	.page-wrapper .page-content .top-header .header-bar {
+		padding: 15px 25px;
+		height: inherit;
+	}
+}
+
+/* End: Sidebar */

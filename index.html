@@ -1,0 +1,1091 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-bs-theme="light">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Admin Dashboard UI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+    <!-- Plugins -->
+    <link href="assets/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- Style Css-->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/libs/simplebar/simplebar.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="page-wrapper bg-light toggled">
+        <!-- sidebar-wrapper -->
+        <nav id="sidebar" class="sidebar-wrapper sidebar-light">
+            <div class="sidebar-content" data-simplebar>
+                <div class="px-3">
+                    <div class="sidebar-brand pt-2 mt-3 mb-1 text-center">
+                        <a href="index.html">
+                            <span class="material-symbols-outlined brand">widgets</span>
+                        </a>
+                    </div>
+                    <div class="pt-4 d-block d-lg-none">
+                        <input class="form-control" placeholder="search">
+                    </div>
+                    <div class="pt-3">
+                        <div class="log-user">
+                            <div class="log-user-img" style="background-image: url('assets/images/profile.png');"></div>
+                            <div class="log-user-text">
+                                <span class="log-user-heading">David Jackson</span>
+                                <span class="log-user-role">Project Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="px-3 pb-5">
+                    <ul class="sidebar-menu pt-3 mt-1">
+                        <li class="sidebar-head">GENERAL</li>
+                        <li class="">
+                            <a href="index.html">
+                                <div class="treeview-menu-text">
+                                    <div class="treeview-menu-text-a">
+                                        <div class="sidebar-menu-icon">
+                                            <span class="material-symbols-outlined">home</span>
+                                        </div>
+                                        <div class="treeview-menu-self">Dashboard</div>
+                                    </div>
+                                    <!-- <div class="treeview-menu-text-b">
+                                            <div class="sidebar-menu-label">
+                                                <span class="sidebar-menu-label-in">32+</span>
+                                            </div>
+                                        </div> -->
+                                </div>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="leadership-expectations.html">
+                                <div class="treeview-menu-text">
+                                    <div class="treeview-menu-text-a">
+                                        <div class="sidebar-menu-icon">
+                                            <span class="material-symbols-outlined">filter_tilt_shift</span>
+                                        </div>
+                                        <div class="treeview-menu-self">Leadership Expectations </div>
+                                    </div>
+                                    <!-- <div class="treeview-menu-text-b">
+                                            <div class="sidebar-menu-label">
+                                                <span class="sidebar-menu-label-in">32+</span>
+                                            </div>
+                                        </div> -->
+                                </div>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="feedback.html">
+                                <div class="treeview-menu-text">
+                                    <div class="treeview-menu-text-a">
+                                        <div class="sidebar-menu-icon">
+                                            <span class="material-symbols-outlined">reviews</span>
+                                        </div>
+                                        <div class="treeview-menu-self">Feedback</div>
+                                    </div>
+                                    <!-- <div class="treeview-menu-text-b">
+                                            <div class="sidebar-menu-label">
+                                                <span class="sidebar-menu-label-in">32+</span>
+                                            </div>
+                                        </div> -->
+                                </div>
+                            </a>
+                        </li>
+                        <li class="treeview">
+                            <a href="javascript:;">
+                                <div class="treeview-menu-text">
+                                    <div class="treeview-menu-text-a">
+                                        <div class="sidebar-menu-icon">
+                                            <span class="material-symbols-outlined">compare</span>
+                                        </div>
+                                        <div class="treeview-menu-self">Comparison</div>
+                                    </div>
+                                    <!-- <div class="treeview-menu-text-b">
+                                            <div class="sidebar-menu-label">
+                                                <span class="sidebar-menu-label-in">32+</span>
+                                            </div>
+                                        </div> -->
+                                </div>
+                                <span class="material-symbols-outlined sidebar-chev">chevron_right</span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="comparison.html"><i class="fa fa-circle-o"></i> Comparison</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a href="questions.html">
+                                <div class="treeview-menu-text">
+                                    <div class="treeview-menu-text-a">
+                                        <div class="sidebar-menu-icon">
+                                            <span class="material-symbols-outlined">live_help</span>
+                                        </div>
+                                        <div class="treeview-menu-self">Questions</div>
+                                    </div>
+                                    <div class="treeview-menu-text-b">
+                                        <div class="sidebar-menu-label">
+                                            <span class="sidebar-menu-label-in">32+</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="notifications.html">
+                                <div class="treeview-menu-text">
+                                    <div class="treeview-menu-text-a">
+                                        <div class="sidebar-menu-icon">
+                                            <span class="material-symbols-outlined">notifications_active</span>
+                                        </div>
+                                        <div class="treeview-menu-self">Notifications</div>
+                                    </div>
+                                    <!-- <div class="treeview-menu-text-b">
+                                            <div class="sidebar-menu-label">
+                                                <span class="sidebar-menu-label-in">32+</span>
+                                            </div>
+                                        </div> -->
+                                </div>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="perfomance.html">
+                                <div class="treeview-menu-text">
+                                    <div class="treeview-menu-text-a">
+                                        <div class="sidebar-menu-icon">
+                                            <span class="material-symbols-outlined">speed</span>
+                                        </div>
+                                        <div class="treeview-menu-self">Perfomance</div>
+                                    </div>
+                                    <!-- <div class="treeview-menu-text-b">
+                                            <div class="sidebar-menu-label">
+                                                <span class="sidebar-menu-label-in">32+</span>
+                                            </div>
+                                        </div> -->
+                                </div>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="360-view.html">
+                                <div class="treeview-menu-text">
+                                    <div class="treeview-menu-text-a">
+                                        <div class="sidebar-menu-icon">
+                                            <span class="material-symbols-outlined">360</span>
+                                        </div>
+                                        <div class="treeview-menu-self">360 View</div>
+                                    </div>
+                                    <!-- <div class="treeview-menu-text-b">
+                                            <div class="sidebar-menu-label">
+                                                <span class="sidebar-menu-label-in">32+</span>
+                                            </div>
+                                        </div> -->
+                                </div>
+                            </a>
+                        </li>
+                        <li class="sidebar-head">APPS</li>
+                        <li class="">
+                            <a href="calendar.html">
+                                <div class="treeview-menu-text">
+                                    <div class="treeview-menu-text-a">
+                                        <div class="sidebar-menu-icon">
+                                            <span class="material-symbols-outlined">event</span>
+                                        </div>
+                                        <div class="treeview-menu-self">Calendar</div>
+                                    </div>
+                                    <!-- <div class="treeview-menu-text-b">
+                                            <div class="sidebar-menu-label">
+                                                <span class="sidebar-menu-label-in">32+</span>
+                                            </div>
+                                        </div> -->
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="d-inline-flex mt-2 ps-2">
+                        <div class="light-dark-button me-1">
+                            <ul class="header-bar-btns-ul">
+                                <li class="header-bar-btns-li">
+                                    <a href="javascript:;" id="theme-light" class="header-bar-btns-li-link me-0 active">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                            viewBox="0 0 25 25" fill="none">
+                                            <path
+                                                d="M12.7987 18.3773C9.485 18.3773 6.79871 15.691 6.79871 12.3773C6.79871 9.06355 9.485 6.37726 12.7987 6.37726C16.1124 6.37726 18.7987 9.06355 18.7987 12.3773C18.7987 15.691 16.1124 18.3773 12.7987 18.3773ZM12.7987 16.3773C15.0078 16.3773 16.7987 14.5864 16.7987 12.3773C16.7987 10.1681 15.0078 8.37726 12.7987 8.37726C10.5896 8.37726 8.79871 10.1681 8.79871 12.3773C8.79871 14.5864 10.5896 16.3773 12.7987 16.3773ZM11.7987 1.37726H13.7987V4.37726H11.7987V1.37726ZM11.7987 20.3773H13.7987V23.3773H11.7987V20.3773ZM4.31343 5.30619L5.72764 3.89198L7.84896 6.0133L6.43475 7.42751L4.31343 5.30619ZM17.7484 18.7413L19.1627 17.327L21.284 19.4484L19.8698 20.8626L17.7484 18.7413ZM19.8698 3.89198L21.284 5.30619L19.1627 7.42751L17.7484 6.0133L19.8698 3.89198ZM6.43475 17.327L7.84896 18.7413L5.72764 20.8626L4.31343 19.4484L6.43475 17.327ZM23.7987 11.3773V13.3773H20.7987V11.3773H23.7987ZM4.79871 11.3773V13.3773H1.79871V11.3773H4.79871Z"
+                                                fill="black" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="header-bar-btns-li me-0">
+                                    <a href="javascript:;" id="theme-dark" class="header-bar-btns-li-link me-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                            viewBox="0 0 25 25" fill="none">
+                                            <path
+                                                d="M12.1794 2.39612C10.7144 3.76494 9.79871 5.71416 9.79871 7.87725C9.79871 12.0194 13.1566 15.3773 17.2987 15.3773C19.4618 15.3773 21.411 14.4616 22.7798 12.9966C22.46 18.231 18.1136 22.3773 12.7987 22.3773C7.27586 22.3773 2.79871 17.9001 2.79871 12.3773C2.79871 7.0624 6.945 2.71595 12.1794 2.39612Z"
+                                                fill="#637381" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <!-- sidebar-menu  -->
+            </div>
+        </nav>
+        <!-- sidebar-wrapper  -->
+
+        <!-- Start Page Content -->
+        <main class="page-content bg-light">
+            <div class="switch-sidebar _close-sidebar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                        d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z"
+                        fill="#637381" />
+                </svg>
+            </div>
+            <!-- Top Header -->
+            <div class="top-header">
+                <div class="header-bar d-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-center">
+                        <ul class="header-bar-btns-ul">
+                            <li class="header-bar-btns-li sidebar-handle">
+                                <a href="javascript:;" class="header-bar-btns-li-link _close-sidebar">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24 3C24 3.55 23.55 4 23 4H1C0.45 4 0 3.55 0 3C0 2.45 0.45 2 1 2H23C23.55 2 24 2.45 24 3ZM7 20H1C0.45 20 0 20.45 0 21C0 21.55 0.45 22 1 22H7C7.55 22 8 21.55 8 21C8 20.45 7.55 20 7 20ZM15 11H1C0.45 11 0 11.45 0 12C0 12.55 0.45 13 1 13H15C15.55 13 16 12.55 16 12C16 11.45 15.55 11 15 11Z"
+                                            fill="#637381" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="header-bar-btns-li d-none">
+                                <a href="javascript:;" class="header-bar-btns-li-link">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M12.425 11.25L15.2583 14.075C15.4161 14.2315 15.5048 14.4445 15.5048 14.6667C15.5048 14.8889 15.4161 15.1019 15.2583 15.2583C15.1019 15.4161 14.8889 15.5048 14.6667 15.5048C14.4445 15.5048 14.2315 15.4161 14.075 15.2583L11.25 12.425C10.0854 13.3392 8.64721 13.8352 7.16667 13.8333C3.48477 13.8333 0.5 10.8486 0.5 7.16667C0.5 3.48477 3.48477 0.5 7.16667 0.5C10.8486 0.5 13.8333 3.48477 13.8333 7.16667C13.8352 8.64721 13.3392 10.0854 12.425 11.25ZM7.16667 2.16667C4.40524 2.16667 2.16667 4.40524 2.16667 7.16667C2.16667 9.92809 4.40524 12.1667 7.16667 12.1667C9.92809 12.1667 12.1667 9.92809 12.1667 7.16667C12.1667 4.40524 9.92809 2.16667 7.16667 2.16667Z"
+                                            fill="#637381" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <ul class="header-bar-btns-ul">
+                            <li class="header-bar-btns-li d-none">
+                                <div class="dropdown dropdown-primary d-inline-flex no-toggle-icon">
+                                    <a href="javascript:;" class="header-bar-btns-li-link dropdown-toggle"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="topbar-badge">8</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M12 1.25C7.71983 1.25 4.25004 4.71979 4.25004 9V9.7041C4.25004 10.401 4.04375 11.0824 3.65717 11.6622L2.50856 13.3851C1.17547 15.3848 2.19318 18.1028 4.51177 18.7351C5.26738 18.9412 6.02937 19.1155 6.79578 19.2581L6.79768 19.2632C7.56667 21.3151 9.62198 22.75 12 22.75C14.378 22.75 16.4333 21.3151 17.2023 19.2632L17.2042 19.2581C17.9706 19.1155 18.7327 18.9412 19.4883 18.7351C21.8069 18.1028 22.8246 15.3848 21.4915 13.3851L20.3429 11.6622C19.9563 11.0824 19.75 10.401 19.75 9.7041V9C19.75 4.71979 16.2802 1.25 12 1.25ZM15.3764 19.537C13.1335 19.805 10.8664 19.8049 8.62349 19.5369C9.33444 20.5585 10.571 21.25 12 21.25C13.4289 21.25 14.6655 20.5585 15.3764 19.537ZM5.75004 9C5.75004 5.54822 8.54826 2.75 12 2.75C15.4518 2.75 18.25 5.54822 18.25 9V9.7041C18.25 10.6972 18.544 11.668 19.0948 12.4943L20.2434 14.2172C21.0086 15.3649 20.4245 16.925 19.0936 17.288C14.4494 18.5546 9.5507 18.5546 4.90644 17.288C3.57561 16.925 2.99147 15.3649 3.75664 14.2172L4.90524 12.4943C5.45609 11.668 5.75004 10.6972 5.75004 9.7041V9Z"
+                                                fill="#637381" />
+                                        </svg>
+                                    </a>
+
+                                    <div class="dropdown-menu dd-menu shadow rounded border-0 mt-3 p-0" data-simplebar
+                                        style="height: 320px; width: 290px;">
+                                        <div
+                                            class="d-flex align-items-center justify-content-between p-3 border-bottom">
+                                            <h6 class="mb-0">Notifications</h6>
+                                            <span class="badge bg-soft-danger rounded-pill">3</span>
+                                        </div>
+                                        <div class="p-3">
+                                            <a href="#!" class="dropdown-item features feature-primary key-feature p-0">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="icon text-center rounded-circle me-2">
+                                                        <i class="ti ti-shopping-cart"></i>
+                                                    </div>
+                                                    <div class="flex-1">
+                                                        <h6 class="mb-0 title">Order Complete</h6>
+                                                        <small class="text-muted">15 min ago</small>
+                                                    </div>
+                                                </div>
+                                            </a>
+
+                                            <a href="#!"
+                                                class="dropdown-item features feature-primary key-feature p-0 mt-3">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="icon text-center rounded-circle me-2">
+                                                        <i class="ti ti-currency-dollar"></i>
+                                                    </div>
+                                                    <div class="flex-1">
+                                                        <h6 class="mb-0 title"><span class="fw-bold">Message</span> from
+                                                            Luis</h6>
+                                                        <small class="text-muted">1 hour ago</small>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#!"
+                                                class="dropdown-item features feature-primary key-feature p-0 mt-3">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="icon text-center rounded-circle me-2">
+                                                        <i class="ti ti-currency-dollar"></i>
+                                                    </div>
+                                                    <div class="flex-1">
+                                                        <h6 class="mb-0 title"><span class="fw-bold">One Refund
+                                                                Request</span></h6>
+                                                        <small class="text-muted">2 hour ago</small>
+                                                    </div>
+                                                </div>
+                                            </a>
+
+                                            <a href="#!"
+                                                class="dropdown-item features feature-primary key-feature p-0 mt-3">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="icon text-center rounded-circle me-2">
+                                                        <i class="ti ti-truck-delivery"></i>
+                                                    </div>
+                                                    <div class="flex-1">
+                                                        <h6 class="mb-0 title">Deliverd your Order</h6>
+                                                        <small class="text-muted">Yesterday</small>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#!"
+                                                class="dropdown-item features feature-primary key-feature p-0 mt-3">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="icon text-center rounded-circle me-2">
+                                                        <i class="ti ti-truck-delivery"></i>
+                                                    </div>
+                                                    <div class="flex-1">
+                                                        <h6 class="mb-0 title">Got your Order</h6>
+                                                        <small class="text-muted">Yesterday</small>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header-bar-btns-li d-none">
+                                <a href="javascript:;" class="header-bar-btns-li-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <circle cx="12" cy="6" r="4" stroke="#637381" stroke-width="1.5" />
+                                        <path d="M18 9C19.6569 9 21 7.88071 21 6.5C21 5.11929 19.6569 4 18 4"
+                                            stroke="#637381" stroke-width="1.5" stroke-linecap="round" />
+                                        <path d="M6 9C4.34315 9 3 7.88071 3 6.5C3 5.11929 4.34315 4 6 4"
+                                            stroke="#637381" stroke-width="1.5" stroke-linecap="round" />
+                                        <ellipse cx="12" cy="17" rx="6" ry="4" stroke="#637381" stroke-width="1.5" />
+                                        <path
+                                            d="M20 19C21.7542 18.6153 23 17.6411 23 16.5C23 15.3589 21.7542 14.3847 20 14"
+                                            stroke="#637381" stroke-width="1.5" stroke-linecap="round" />
+                                        <path d="M4 19C2.24575 18.6153 1 17.6411 1 16.5C1 15.3589 2.24575 14.3847 4 14"
+                                            stroke="#637381" stroke-width="1.5" stroke-linecap="round" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="header-bar-btns-li">
+                                <a href="profile.html" class="d-inline-block">
+                                    <div class="topbar-user-img"
+                                        style="background-image: url('assets/images/profile.png');"></div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Top Header -->
+
+            <div class="container-fluid">
+                <div class="layout-specing">
+                    <div class="row">
+                        <div class="col-12">
+                            <div
+                                class="welcome d-flex align-items-start align-items-lg-center justify-content-start justify-content-lg-between flex-column flex-lg-row">
+                                <div class="welcome-text pe-0 pe-lg-3">
+                                    <div class="w-100">
+                                        <h2 class="welcome-text-head"><span class="welcome-text-head-span">Hi<img
+                                                    style="height: 26px;" src="assets/images/hand-emoji.png"></span>,
+                                            David</h2>
+                                        <h3 class="welcome-text-back">Welcome back</h3>
+                                    </div>
+                                    <div
+                                        class="leadership-text d-flex align-items-start align-items-sm-center justify-content-start justify-content-sm-between flex-column flex-sm-row">
+                                        <div class="leadership-text-box">
+                                            <h3 class="leadership-text-head">Leadership Thrives at:</h3>
+                                            <h4 class="leadership-text-desc">Goals & Alignments</h4>
+                                        </div>
+                                        <div class="leadership-text-box">
+                                            <h3 class="leadership-text-head">Leadership Struggles with:</h3>
+                                            <h4 class="leadership-text-desc">Psychological Safety</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="welcome-groth d-flex align-items-start align-items-sm-center justify-content-start justify-content-sm-between flex-column flex-sm-row">
+                                    <div class="welcome-groth-box green mt-4 mt-lg-0">
+                                        <div class="welcome-groth-icon">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M7.49998 9.58333C7.49998 10.7339 6.56724 11.6667 5.41665 11.6667C4.26605 11.6667 3.33331 10.7339 3.33331 9.58333C3.33331 8.43274 4.26605 7.5 5.41665 7.5C6.56724 7.5 7.49998 8.43274 7.49998 9.58333Z"
+                                                    stroke="white" stroke-width="1.25" />
+                                                <path opacity="0.5" d="M11.9339 14.0012L7.5 11.0748" stroke="white"
+                                                    stroke-width="1.25" stroke-linecap="round" />
+                                                <path opacity="0.5" d="M12.0173 5.69977L7.58344 8.62612" stroke="white"
+                                                    stroke-width="1.25" stroke-linecap="round" />
+                                                <path
+                                                    d="M15.8334 15.4167C15.8334 16.5673 14.9006 17.5 13.75 17.5C12.5994 17.5 11.6667 16.5673 11.6667 15.4167C11.6667 14.2661 12.5994 13.3333 13.75 13.3333C14.9006 13.3333 15.8334 14.2661 15.8334 15.4167Z"
+                                                    stroke="white" stroke-width="1.25" />
+                                                <path
+                                                    d="M15.8334 4.58333C15.8334 5.73393 14.9006 6.66667 13.75 6.66667C12.5994 6.66667 11.6667 5.73393 11.6667 4.58333C11.6667 3.43274 12.5994 2.5 13.75 2.5C14.9006 2.5 15.8334 3.43274 15.8334 4.58333Z"
+                                                    stroke="white" stroke-width="1.25" />
+                                            </svg>
+                                        </div>
+                                        <h3 class="welcome-groth-head">Monthly</h3>
+                                        <h4 class="welcome-groth-desc">22%</h4>
+                                        <div class="d-flex align-items-center">
+                                            <h3 class="welcome-groth-imp-txt">Improvement</h3>
+                                            <div class="welcome-groth-imp-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M14 4.66667C14.0063 4.62021 14.0063 4.57312 14 4.52667C13.9942 4.48753 13.9829 4.44938 13.9666 4.41333C13.949 4.38075 13.929 4.34955 13.9066 4.32C13.8813 4.27784 13.8498 4.23965 13.8133 4.20667L13.7333 4.16C13.6948 4.1313 13.6521 4.10881 13.6066 4.09333H13.4733C13.4327 4.054 13.3852 4.02237 13.3333 4H9.99996C9.63177 4 9.33329 4.29848 9.33329 4.66667C9.33329 5.03486 9.63177 5.33333 9.99996 5.33333H11.8866L9.21995 8.47333L6.33995 6.76C6.05815 6.59239 5.6963 6.65458 5.48662 6.90667L2.15329 10.9067C2.03992 11.0427 1.98534 11.2183 2.0016 11.3946C2.01786 11.571 2.10362 11.7336 2.23995 11.8467C2.3599 11.9461 2.51085 12.0003 2.66662 12C2.86491 12.0003 3.05305 11.9124 3.17995 11.76L6.14662 8.2L8.99329 9.90667C9.27202 10.072 9.62928 10.0129 9.83996 9.76667L12.6666 6.46667V8C12.6666 8.36819 12.9651 8.66667 13.3333 8.66667C13.7015 8.66667 14 8.36819 14 8V4.66667Z"
+                                                        fill="#00AB55" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="welcome-groth-box blue mt-4 mt-lg-0">
+                                        <div class="welcome-groth-icon">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.66663 13.5417C1.32145 13.5417 1.04163 13.8215 1.04163 14.1667C1.04163 14.5118 1.32145 14.7917 1.66663 14.7917V13.5417ZM4.66901 14.7917C5.01419 14.7917 5.29401 14.5118 5.29401 14.1667C5.29401 13.8215 5.01419 13.5417 4.66901 13.5417V14.7917ZM8.95647 11.7392L8.42054 11.4176H8.42054L8.95647 11.7392ZM11.0434 8.26086L11.5794 8.58242L11.0434 8.26086ZM18.3333 5.83334L18.7752 6.27528C19.0193 6.0312 19.0193 5.63547 18.7752 5.3914L18.3333 5.83334ZM16.2247 7.05806C15.9806 7.30214 15.9806 7.69787 16.2247 7.94195C16.4688 8.18602 16.8645 8.18602 17.1086 7.94195L16.2247 7.05806ZM17.1086 3.72473C16.8645 3.48065 16.4688 3.48065 16.2247 3.72473C15.9806 3.96881 15.9806 4.36454 16.2247 4.60861L17.1086 3.72473ZM12.6837 6.15784L12.3758 5.61396V5.61396L12.6837 6.15784ZM7.26688 13.1063C7.01466 13.342 7.00124 13.7375 7.2369 13.9897C7.47255 14.2419 7.86805 14.2553 8.12027 14.0197L7.26688 13.1063ZM1.66663 14.7917H4.66901V13.5417H1.66663V14.7917ZM9.4924 12.0607L11.5794 8.58242L10.5075 7.9393L8.42054 11.4176L9.4924 12.0607ZM15.3309 6.45834H18.3333V5.20834H15.3309V6.45834ZM17.8913 5.3914L16.2247 7.05806L17.1086 7.94195L18.7752 6.27528L17.8913 5.3914ZM18.7752 5.3914L17.1086 3.72473L16.2247 4.60861L17.8913 6.27528L18.7752 5.3914ZM11.5794 8.58242C11.9412 7.97932 12.1904 7.56529 12.4177 7.25831C12.637 6.9622 12.8076 6.8059 12.9916 6.70171L12.3758 5.61396C11.9866 5.83428 11.6929 6.13664 11.4131 6.51451C11.1414 6.88149 10.8571 7.35672 10.5075 7.9393L11.5794 8.58242ZM15.3309 5.20834C14.6515 5.20834 14.0977 5.20766 13.6432 5.25183C13.1753 5.29732 12.7649 5.39365 12.3758 5.61396L12.9916 6.70171C13.1756 6.59753 13.3975 6.53161 13.7642 6.49597C14.1443 6.45902 14.6276 6.45834 15.3309 6.45834V5.20834ZM8.42054 11.4176C7.85641 12.3578 7.57073 12.8224 7.26688 13.1063L8.12027 14.0197C8.58383 13.5865 8.96985 12.9316 9.4924 12.0607L8.42054 11.4176Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M1.66663 5.20833C1.32145 5.20833 1.04163 5.48815 1.04163 5.83333C1.04163 6.17851 1.32145 6.45833 1.66663 6.45833V5.20833ZM18.3333 14.1667L18.7752 14.6086C19.0193 14.3645 19.0193 13.9688 18.7752 13.7247L18.3333 14.1667ZM17.1086 12.0581C16.8645 11.814 16.4688 11.814 16.2247 12.0581C15.9806 12.3021 15.9806 12.6979 16.2247 12.9419L17.1086 12.0581ZM16.2247 15.3914C15.9806 15.6355 15.9806 16.0312 16.2247 16.2753C16.4688 16.5193 16.8645 16.5193 17.1086 16.2753L16.2247 15.3914ZM13.4378 14.1206L13.5572 13.5071H13.5572L13.4378 14.1206ZM12.0359 12.1784C11.8583 11.8824 11.4744 11.7865 11.1784 11.9641C10.8824 12.1417 10.7864 12.5256 10.964 12.8216L12.0359 12.1784ZM12.0569 13.3388L12.5216 12.9208L12.0569 13.3388ZM6.56213 5.87938L6.68154 5.26589L6.56213 5.87938ZM7.96403 7.82155C8.14162 8.11754 8.52553 8.21352 8.82152 8.03593C9.11751 7.85834 9.21348 7.47442 9.03589 7.17844L7.96403 7.82155ZM7.94298 6.66121L7.47836 7.07924L7.94298 6.66121ZM1.66663 6.45833H5.55631V5.20833H1.66663V6.45833ZM14.4436 14.7917H18.3333V13.5417H14.4436V14.7917ZM18.7752 13.7247L17.1086 12.0581L16.2247 12.9419L17.8913 14.6086L18.7752 13.7247ZM17.8913 13.7247L16.2247 15.3914L17.1086 16.2753L18.7752 14.6086L17.8913 13.7247ZM14.4436 13.5417C13.9055 13.5417 13.7206 13.5389 13.5572 13.5071L13.3184 14.7341C13.6282 14.7944 13.9561 14.7917 14.4436 14.7917V13.5417ZM10.964 12.8216C11.2149 13.2396 11.3812 13.5222 11.5923 13.7568L12.5216 12.9208C12.4102 12.797 12.3127 12.6398 12.0359 12.1784L10.964 12.8216ZM13.5572 13.5071C13.1575 13.4293 12.7939 13.2235 12.5216 12.9208L11.5923 13.7568C12.0463 14.2614 12.6522 14.6044 13.3184 14.7341L13.5572 13.5071ZM5.55631 6.45833C6.09439 6.45833 6.27929 6.46106 6.44272 6.49287L6.68154 5.26589C6.37176 5.2056 6.04385 5.20833 5.55631 5.20833V6.45833ZM9.03589 7.17844C8.78506 6.76037 8.61869 6.47779 8.4076 6.24318L7.47836 7.07924C7.58972 7.20301 7.68718 7.36015 7.96403 7.82155L9.03589 7.17844ZM6.44272 6.49287C6.84245 6.57067 7.20598 6.7765 7.47836 7.07924L8.4076 6.24318C7.95364 5.73862 7.34775 5.39557 6.68154 5.26589L6.44272 6.49287Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </div>
+                                        <h3 class="welcome-groth-head">Annual</h3>
+                                        <h4 class="welcome-groth-desc">16%</h4>
+                                        <div class="d-flex align-items-center">
+                                            <h3 class="welcome-groth-imp-txt">Improvement</h3>
+                                            <div class="welcome-groth-imp-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M14 4.66667C14.0063 4.62021 14.0063 4.57312 14 4.52667C13.9942 4.48753 13.9829 4.44938 13.9666 4.41333C13.949 4.38075 13.929 4.34955 13.9066 4.32C13.8813 4.27784 13.8498 4.23965 13.8133 4.20667L13.7333 4.16C13.6948 4.1313 13.6521 4.10881 13.6066 4.09333H13.4733C13.4327 4.054 13.3852 4.02237 13.3333 4H9.99996C9.63177 4 9.33329 4.29848 9.33329 4.66667C9.33329 5.03486 9.63177 5.33333 9.99996 5.33333H11.8866L9.21995 8.47333L6.33995 6.76C6.05815 6.59239 5.6963 6.65458 5.48662 6.90667L2.15329 10.9067C2.03992 11.0427 1.98534 11.2183 2.0016 11.3946C2.01786 11.571 2.10362 11.7336 2.23995 11.8467C2.3599 11.9461 2.51085 12.0003 2.66662 12C2.86491 12.0003 3.05305 11.9124 3.17995 11.76L6.14662 8.2L8.99329 9.90667C9.27202 10.072 9.62928 10.0129 9.83996 9.76667L12.6666 6.46667V8C12.6666 8.36819 12.9651 8.66667 13.3333 8.66667C13.7015 8.66667 14 8.36819 14 8V4.66667Z"
+                                                        fill="#00AB55" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="overall-box green mt-4">
+                                <div class="d-flex justify-content-center">
+                                    <div class="overall-box-icon">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M18 14C18 18.4183 14.4183 22 10 22C8.76449 22 7.5944 21.7199 6.54976 21.2198C6.19071 21.0479 5.78393 20.9876 5.39939 21.0904L4.17335 21.4185C3.20701 21.677 2.32295 20.793 2.58151 19.8267L2.90955 18.6006C3.01245 18.2161 2.95209 17.8093 2.7802 17.4502C2.28008 16.4056 2 15.2355 2 14C2 9.58172 5.58172 6 10 6C14.4183 6 18 9.58172 18 14ZM6.5 15C7.05228 15 7.5 14.5523 7.5 14C7.5 13.4477 7.05228 13 6.5 13C5.94772 13 5.5 13.4477 5.5 14C5.5 14.5523 5.94772 15 6.5 15ZM10 15C10.5523 15 11 14.5523 11 14C11 13.4477 10.5523 13 10 13C9.44772 13 9 13.4477 9 14C9 14.5523 9.44772 15 10 15ZM13.5 15C14.0523 15 14.5 14.5523 14.5 14C14.5 13.4477 14.0523 13 13.5 13C12.9477 13 12.5 13.4477 12.5 14C12.5 14.5523 12.9477 15 13.5 15Z"
+                                                fill="#1B9A63" />
+                                            <path opacity="0.6"
+                                                d="M17.9841 14.5084C18.092 14.4638 18.1984 14.4163 18.3033 14.3661C18.595 14.2264 18.9255 14.1774 19.238 14.261L20.2341 14.5275C21.0193 14.7376 21.7376 14.0193 21.5275 13.2342L21.261 12.238C21.1774 11.9256 21.2264 11.595 21.3661 11.3033C21.7724 10.4545 22 9.50385 22 8.5C22 4.91015 19.0898 2 15.5 2C12.7899 2 10.4673 3.6585 9.49155 6.0159C9.65967 6.00535 9.82921 6 9.99999 6C14.4183 6 18 9.58172 18 14C18 14.1708 17.9946 14.3403 17.9841 14.5084Z"
+                                                fill="#1B9A63" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <h3 class="overall-box-head">73.9k</h3>
+                                    <div class="ms-2">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14 4.66667C14.0063 4.62021 14.0063 4.57312 14 4.52667C13.9942 4.48753 13.9829 4.44938 13.9666 4.41333C13.949 4.38075 13.929 4.34955 13.9066 4.32C13.8813 4.27784 13.8498 4.23965 13.8133 4.20667L13.7333 4.16C13.6948 4.1313 13.6521 4.10881 13.6066 4.09333H13.4733C13.4327 4.054 13.3852 4.02237 13.3333 4H9.99996C9.63177 4 9.33329 4.29848 9.33329 4.66667C9.33329 5.03486 9.63177 5.33333 9.99996 5.33333H11.8866L9.21995 8.47333L6.33995 6.76C6.05815 6.59239 5.6963 6.65458 5.48662 6.90667L2.15329 10.9067C2.03992 11.0427 1.98534 11.2183 2.0016 11.3946C2.01786 11.571 2.10362 11.7336 2.23995 11.8467C2.3599 11.9461 2.51085 12.0003 2.66662 12C2.86491 12.0003 3.05305 11.9124 3.17995 11.76L6.14662 8.2L8.99329 9.90667C9.27202 10.072 9.62928 10.0129 9.83996 9.76667L12.6666 6.46667V8C12.6666 8.36819 12.9651 8.66667 13.3333 8.66667C13.7015 8.66667 14 8.36819 14 8V4.66667Z"
+                                                fill="#00AB55" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <p class="overall-box-desc">Total Surveys Completed</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="overall-box blue mt-4">
+                                <div class="d-flex justify-content-center">
+                                    <div class="overall-box-icon">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17.1923 6H6.80765C5.12027 6 4.27658 6 3.63268 6.32971C3.07242 6.61659 2.61659 7.07242 2.32971 7.63268C2 8.27658 2 9.12027 2 10.8077C2 11.2366 2 11.4511 2.07336 11.6319C2.13743 11.7898 2.24079 11.9288 2.37363 12.0355C2.52574 12.1577 2.73118 12.2194 3.14206 12.3426L8.5 13.95V15.1627C8.5 15.9283 8.95939 16.6341 9.68682 16.9296L10.2469 17.1572C11.3719 17.6143 12.6281 17.6143 13.7531 17.1572L14.3132 16.9296C15.0406 16.6341 15.5 15.9283 15.5 15.1627V13.95L20.8579 12.3426C21.2688 12.2194 21.4743 12.1577 21.6264 12.0355C21.7592 11.9288 21.8626 11.7898 21.9266 11.6319C22 11.4511 22 11.2366 22 10.8077C22 9.12027 22 8.27658 21.6703 7.63268C21.3834 7.07242 20.9276 6.61659 20.3673 6.32971C19.7234 6 18.8797 6 17.1923 6ZM13.6 13H10.4C10.1791 13 10 13.1819 10 13.4063V15.1627C10 15.3288 10.0996 15.4782 10.2514 15.54L10.8116 15.7675C11.5745 16.0775 12.4255 16.0775 13.1885 15.7675L13.7486 15.54C13.9004 15.4782 14 15.3288 14 15.1627V13.4063C14 13.1819 13.8209 13 13.6 13Z"
+                                                fill="#006C9C" />
+                                            <path opacity="0.5"
+                                                d="M20.9579 12.3126C20.9469 12.3159 20.9356 12.3193 20.9242 12.3227L15.5 13.9501V15.1627C15.5 15.9283 15.0406 16.6341 14.3132 16.9296L13.7531 17.1572C12.6281 17.6143 11.3719 17.6143 10.2469 17.1572L9.68682 16.9296C8.95939 16.6341 8.5 15.9283 8.5 15.1627V13.9501L3 12.2999C3.0009 15.9752 3.03489 19.6879 4.318 20.8285C5.63601 22.0001 7.75733 22.0001 12 22.0001C16.2426 22.0001 18.3639 22.0001 19.682 20.8285C20.9651 19.6879 20.9991 15.9752 21 12.2999L20.9579 12.3126Z"
+                                                fill="#006C9C" />
+                                            <path opacity="0.5"
+                                                d="M9.1709 4C9.58273 2.83481 10.694 2 12.0002 2C13.3064 2 14.4177 2.83481 14.8295 4"
+                                                stroke="#006C9C" stroke-width="1.5" stroke-linecap="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <h3 class="overall-box-head">$89.2k</h3>
+                                </div>
+                                <p class="overall-box-desc">Projected Savings</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="overall-box yellow mt-4">
+                                <div class="d-flex justify-content-center">
+                                    <div class="overall-box-icon">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M6.96006 2C7.37758 2 7.71605 2.30996 7.71605 2.69231V4.08883C8.38663 4.07692 9.13829 4.07692 9.98402 4.07692H14.016C14.8617 4.07692 15.6134 4.07692 16.284 4.08883V2.69231C16.284 2.30996 16.6224 2 17.0399 2C17.4575 2 17.7959 2.30996 17.7959 2.69231V4.15008C19.2468 4.25647 20.1992 4.51758 20.899 5.15838C21.5987 5.79917 21.8838 6.67139 22 8V9H2V8C2.11618 6.67139 2.4013 5.79917 3.10104 5.15838C3.80079 4.51758 4.75323 4.25647 6.20406 4.15008V2.69231C6.20406 2.30996 6.54253 2 6.96006 2Z"
+                                                fill="#7A4100" />
+                                            <path opacity="0.5"
+                                                d="M22 14V12C22 11.161 21.9873 9.66527 21.9744 9H2.00586C1.99296 9.66527 2.00564 11.161 2.00564 12V14C2.00564 17.7712 2.00564 19.6569 3.17688 20.8284C4.34813 22 6.23321 22 10.0034 22H14.0023C17.7724 22 19.6575 22 20.8288 20.8284C22 19.6569 22 17.7712 22 14Z"
+                                                fill="#7A4100" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M18.75 16.5C17.5074 16.5 16.5 17.5074 16.5 18.75C16.5 19.9926 17.5074 21 18.75 21C19.9926 21 21 19.9926 21 18.75C21 17.5074 19.9926 16.5 18.75 16.5ZM15 18.75C15 16.6789 16.6789 15 18.75 15C20.8211 15 22.5 16.6789 22.5 18.75C22.5 19.5143 22.2713 20.2252 21.8787 20.818L23.2803 22.2197C23.5732 22.5126 23.5732 22.9874 23.2803 23.2803C22.9874 23.5732 22.5126 23.5732 22.2197 23.2803L20.818 21.8787C20.2252 22.2713 19.5143 22.5 18.75 22.5C16.6789 22.5 15 20.8211 15 18.75Z"
+                                                fill="#7A4100" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <h3 class="overall-box-head">53%</h3>
+                                    <div class="ms-2">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14 4.66667C14.0063 4.62021 14.0063 4.57312 14 4.52667C13.9942 4.48753 13.9829 4.44938 13.9666 4.41333C13.949 4.38075 13.929 4.34955 13.9066 4.32C13.8813 4.27784 13.8498 4.23965 13.8133 4.20667L13.7333 4.16C13.6948 4.1313 13.6521 4.10881 13.6066 4.09333H13.4733C13.4327 4.054 13.3852 4.02237 13.3333 4H9.99996C9.63177 4 9.33329 4.29848 9.33329 4.66667C9.33329 5.03486 9.63177 5.33333 9.99996 5.33333H11.8866L9.21995 8.47333L6.33995 6.76C6.05815 6.59239 5.6963 6.65458 5.48662 6.90667L2.15329 10.9067C2.03992 11.0427 1.98534 11.2183 2.0016 11.3946C2.01786 11.571 2.10362 11.7336 2.23995 11.8467C2.3599 11.9461 2.51085 12.0003 2.66662 12C2.86491 12.0003 3.05305 11.9124 3.17995 11.76L6.14662 8.2L8.99329 9.90667C9.27202 10.072 9.62928 10.0129 9.83996 9.76667L12.6666 6.46667V8C12.6666 8.36819 12.9651 8.66667 13.3333 8.66667C13.7015 8.66667 14 8.36819 14 8V4.66667Z"
+                                                fill="#00AB55" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <p class="overall-box-desc">Yearly Progress</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="overall-box orange mt-4">
+                                <div class="d-flex justify-content-center">
+                                    <div class="overall-box-icon">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path opacity="0.5"
+                                                d="M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z"
+                                                fill="#B35D10" />
+                                            <path
+                                                d="M17.5762 10.4802C17.8414 10.1619 17.7984 9.68903 17.4802 9.42385C17.1619 9.15868 16.689 9.20167 16.4239 9.51988L14.627 11.6761C14.2562 12.1211 14.0285 12.3915 13.8409 12.5609C13.7539 12.6395 13.7023 12.6708 13.6776 12.6827C13.6725 12.6852 13.6689 12.6866 13.6667 12.6875C13.6667 12.6875 13.6624 12.6858 13.659 12.6843L13.6558 12.6827C13.6311 12.6708 13.5795 12.6395 13.4925 12.5609C13.3049 12.3915 13.0772 12.1211 12.7064 11.6761L12.414 11.3253C12.0855 10.931 11.7894 10.5756 11.5128 10.3259C11.2119 10.0541 10.8328 9.81207 10.3334 9.81207C9.83386 9.81207 9.4548 10.0541 9.15386 10.3259C8.87727 10.5756 8.58115 10.931 8.25269 11.3253L6.42385 13.5199C6.15868 13.8381 6.20167 14.311 6.51988 14.5762C6.83809 14.8414 7.31101 14.7984 7.57619 14.4802L9.37308 12.3239C9.74387 11.8789 9.97157 11.6085 10.1592 11.4391C10.2461 11.3606 10.2978 11.3293 10.3225 11.3173L10.3292 11.3142L10.3334 11.3126C10.3356 11.3134 10.3392 11.3149 10.3442 11.3173C10.369 11.3293 10.4206 11.3606 10.5076 11.4391C10.6951 11.6085 10.9228 11.8789 11.2936 12.3239L11.586 12.6748L11.586 12.6748C11.9145 13.069 12.2106 13.4244 12.4872 13.6742C12.7881 13.9459 13.1672 14.188 13.6667 14.188C14.1662 14.188 14.5452 13.9459 14.8462 13.6742C15.1228 13.4244 15.4189 13.069 15.7473 12.6748L17.5762 10.4802Z"
+                                                fill="#B35D10" />
+                                            <path
+                                                d="M22 5C22 6.65685 20.6569 8 19 8C17.3431 8 16 6.65685 16 5C16 3.34315 17.3431 2 19 2C20.6569 2 22 3.34315 22 5Z"
+                                                fill="#B35D10" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <h3 class="overall-box-head">98%</h3>
+                                </div>
+                                <p class="overall-box-desc">Survey Response Rate</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-4">
+                            <div class="card extra-shadow extra-rounded border-0 mt-4">
+                                <div class="card-body">
+                                    <div class="donut-box">
+                                        <div class="chart-header">
+                                            <div class="chart-header-text">
+                                                <h3 class="chart-text-head mb-0">Snapshot</h3>
+                                                <h4 class="chart-text-desc mb-0">Feedback</h4>
+                                            </div>
+                                            <div class="chart-header-select">
+                                                <select
+                                                    class="form-select form-control gray-select border-0 fw-sb-select">
+                                                    <option selected="">Jan</option>
+                                                    <option value="Feb">Feb</option>
+                                                    <option value="Mar">Mar</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="position-relative mt-4">
+                                            <canvas id="chartJSContainer1" style="height: 160px;"></canvas>
+                                            <div class="donut-text">
+                                                <h3 class="percent">80%</h3>
+                                                <p class="price">Transactions</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xxl-4">
+                            <div class="card extra-shadow extra-rounded border-0 mt-4">
+                                <div class="card-body">
+                                    <div class="donut-box">
+                                        <div class="chart-header">
+                                            <div class="chart-header-text">
+                                                <h3 class="chart-text-head mb-0">Snapshot</h3>
+                                                <h4 class="chart-text-desc mb-0">Feedback</h4>
+                                            </div>
+                                            <div class="chart-header-select">
+                                                <select
+                                                    class="form-select form-control gray-select border-0 fw-sb-select">
+                                                    <option selected="">Jan</option>
+                                                    <option value="Feb">Feb</option>
+                                                    <option value="Mar">Mar</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="position-relative mt-4">
+                                            <canvas id="chartJSContainer2" style="height: 160px;"></canvas>
+                                            <div class="donut-text">
+                                                <h3 class="percent">80%</h3>
+                                                <p class="price">Transactions</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xxl-4">
+                            <div class="card extra-shadow extra-rounded border-0 mt-4">
+                                <div class="card-body">
+                                    <div class="donut-box">
+                                        <div class="chart-header">
+                                            <div class="chart-header-text">
+                                                <h3 class="chart-text-head mb-0">Comparison</h3>
+                                                <h4 class="chart-text-desc mb-0">Leadership</h4>
+                                            </div>
+                                            <div class="chart-header-select">
+                                                <select
+                                                    class="form-select form-control gray-select border-0 fw-sb-select">
+                                                    <option selected="">Jan</option>
+                                                    <option value="Feb">Feb</option>
+                                                    <option value="Mar">Mar</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="position-relative mt-4">
+                                            <canvas id="chartJSContainer3" style="height: 160px;"></canvas>
+                                            <div class="donut-text">
+                                                <p class="price">Transactions</p>
+                                                <h3 class="percent">80%</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card extra-shadow extra-rounded border-0 mt-4">
+                                <div class="card-body">
+                                    <div class="donut-box">
+                                        <div class="chart-header">
+                                            <div class="chart-header-text">
+                                                <h3 class="chart-text-head mb-0">Month by Month Trend</h3>
+                                                <h4 class="chart-text-desc mb-0">(+43%) than last year</h4>
+                                            </div>
+                                            <div class="chart-header-select">
+                                                <select
+                                                    class="form-select form-control gray-select border-0 fw-sb-select">
+                                                    <option selected="">Jan</option>
+                                                    <option value="Feb">Feb</option>
+                                                    <option value="Mar">Mar</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="position-relative mt-4">
+                                            <div id="curveLineChart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card extra-shadow extra-rounded border-0 mt-4">
+                                <div class="card-body">
+                                    <div class="donut-box">
+                                        <div class="chart-header">
+                                            <div class="chart-header-text">
+                                                <h3 class="chart-text-head mb-0">Month by Month Trend</h3>
+                                            </div>
+                                            <div class="chart-header-select">
+                                                <select
+                                                    class="form-select form-control gray-select border-0 fw-sb-select">
+                                                    <option selected="">Jan</option>
+                                                    <option value="Feb">Feb</option>
+                                                    <option value="Mar">Mar</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="position-relative mt-4">
+                                            <div id="bubbleChart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end container-->
+        </main>
+        <!--End page-content" -->
+        <div class="menu-shadow"></div>
+    </div>
+    <!-- page-wrapper -->
+    <!-- JAVASCRIPT -->
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        // Start: Rounded Doughnut Chart
+        Chart.defaults.elements.arc.borderWidth = 0;
+        Chart.defaults.datasets.doughnut.cutout = '75%';
+
+        var chartInstance = new Chart(document.getElementById("chartJSContainer1"), {
+            type: 'doughnut',
+            responsive: true,
+            data: {
+                labels: ['Career Development', 'Goals & Alignment', 'Psychological safety'],
+                datasets: [{
+                    data: [25, 25, 25, 25],
+                    backgroundColor: ["#95A3FC", "#B2E2FF", "#BAECBD", "#E8E8E8"],
+                    hoverBackgroundColor: ["#95A3FC", "#B2E2FF", "#BAECBD", "#E8E8E8"],
+                    borderWidth: 0,
+                    borderColor: ["#95A3FC", "#B2E2FF", "#BAECBD", "#E8E8E8"],
+                    hoverBorderWidth: 0,
+                    hoverOffset: 4
+                }]
+            },
+
+            options: {
+                plugins: {
+                    legend: {
+                        display: true,
+
+                        position: 'right',
+                        labels: {
+                            color: "#999",
+                            padding: 25,
+                            font: {
+                                size: 10,
+                            },
+                            usePointStyle: true,
+                        }
+                    }
+                },
+                animation: {
+                    animateRotate: true
+                },
+                responsive: true,
+                maintainAspectRatio: false,
+            },
+
+            plugins: [{
+                afterUpdate: function (chart) {
+                    const arcs = chart.getDatasetMeta(0).data;
+
+                    arcs.forEach(function (arc) {
+                        arc.round = {
+                            x: (chart.chartArea.left + chart.chartArea.right) / 2,
+                            y: (chart.chartArea.top + chart.chartArea.bottom) / 2,
+                            radius: (arc.outerRadius + arc.innerRadius) / 2,
+                            thickness: (arc.outerRadius - arc.innerRadius) / 2,
+                            backgroundColor: arc.options.backgroundColor
+                        }
+                    });
+                },
+                afterDraw: (chart) => {
+                    const {
+                        ctx,
+                        canvas
+                    } = chart;
+
+                    chart.getDatasetMeta(0).data.forEach(arc => {
+                        const startAngle = Math.PI / 2 - arc.startAngle;
+                        const endAngle = Math.PI / 2 - arc.endAngle;
+
+                        ctx.save();
+                        ctx.translate(arc.round.x, arc.round.y);
+                        ctx.fillStyle = arc.options.backgroundColor;
+                        ctx.beginPath();
+                        ctx.arc(arc.round.radius * Math.sin(endAngle), arc.round.radius * Math.cos(endAngle), arc.round.thickness, 0, 2 * Math.PI);
+                        ctx.closePath();
+                        ctx.fill();
+                        ctx.restore();
+                    });
+                }
+            }]
+        });
+
+        var chartInstance = new Chart(document.getElementById("chartJSContainer2"), {
+            type: 'doughnut',
+            responsive: true,
+            data: {
+                labels: ['Career Development', 'Goals & Alignment', 'Psychological safety'],
+                datasets: [{
+                    data: [25, 25, 25, 25],
+                    backgroundColor: ["#95A3FC", "#B2E2FF", "#BAECBD", "#E8E8E8"],
+                    hoverBackgroundColor: ["#95A3FC", "#B2E2FF", "#BAECBD", "#E8E8E8"],
+                    borderWidth: 0,
+                    borderColor: ["#95A3FC", "#B2E2FF", "#BAECBD", "#E8E8E8"],
+                    hoverBorderWidth: 0,
+                    hoverOffset: 4
+                }]
+            },
+
+            options: {
+                plugins: {
+                    legend: {
+                        display: true,
+
+                        position: 'right',
+                        labels: {
+                            color: "#999",
+                            padding: 25,
+                            font: {
+                                size: 10,
+                            },
+                            usePointStyle: true,
+                        }
+                    }
+                },
+                animation: {
+                    animateRotate: true
+                },
+                responsive: true,
+                maintainAspectRatio: false,
+            },
+
+            plugins: [{
+                afterUpdate: function (chart) {
+                    const arcs = chart.getDatasetMeta(0).data;
+
+                    arcs.forEach(function (arc) {
+                        arc.round = {
+                            x: (chart.chartArea.left + chart.chartArea.right) / 2,
+                            y: (chart.chartArea.top + chart.chartArea.bottom) / 2,
+                            radius: (arc.outerRadius + arc.innerRadius) / 2,
+                            thickness: (arc.outerRadius - arc.innerRadius) / 2,
+                            backgroundColor: arc.options.backgroundColor
+                        }
+                    });
+                },
+                afterDraw: (chart) => {
+                    const {
+                        ctx,
+                        canvas
+                    } = chart;
+
+                    chart.getDatasetMeta(0).data.forEach(arc => {
+                        const startAngle = Math.PI / 2 - arc.startAngle;
+                        const endAngle = Math.PI / 2 - arc.endAngle;
+
+                        ctx.save();
+                        ctx.translate(arc.round.x, arc.round.y);
+                        ctx.fillStyle = arc.options.backgroundColor;
+                        ctx.beginPath();
+                        ctx.arc(arc.round.radius * Math.sin(endAngle), arc.round.radius * Math.cos(endAngle), arc.round.thickness, 0, 2 * Math.PI);
+                        ctx.closePath();
+                        ctx.fill();
+                        ctx.restore();
+                    });
+                }
+            }]
+        });
+
+        var chartInstance = new Chart(document.getElementById("chartJSContainer3"), {
+            type: 'doughnut',
+            responsive: true,
+            data: {
+                labels: ['Career Development', 'Goals & Alignment', 'Psychological safety'],
+                datasets: [{
+                    data: [25, 25, 25, 25],
+                    backgroundColor: ["#95A3FC", "#B2E2FF", "#BAECBD", "#E8E8E8"],
+                    hoverBackgroundColor: ["#95A3FC", "#B2E2FF", "#BAECBD", "#E8E8E8"],
+                    borderWidth: 0,
+                    borderColor: ["#95A3FC", "#B2E2FF", "#BAECBD", "#E8E8E8"],
+                    hoverBorderWidth: 0,
+                    hoverOffset: 4,
+                }]
+            },
+
+            options: {
+                plugins: {
+                    legend: {
+                        display: true,
+
+                        position: 'right',
+                        labels: {
+                            color: "#999",
+                            padding: 25,
+                            font: {
+                                size: 10,
+                            },
+                            usePointStyle: true,
+                        }
+                    }
+                },
+                animation: {
+                    animateRotate: true
+                },
+                responsive: true,
+                maintainAspectRatio: false,
+            },
+
+            plugins: [{
+                afterUpdate: function (chart) {
+                    const arcs = chart.getDatasetMeta(0).data;
+
+                    arcs.forEach(function (arc) {
+                        arc.round = {
+                            x: (chart.chartArea.left + chart.chartArea.right) / 2,
+                            y: (chart.chartArea.top + chart.chartArea.bottom) / 2,
+                            radius: (arc.outerRadius + arc.innerRadius) / 2,
+                            thickness: (arc.outerRadius - arc.innerRadius) / 2,
+                            backgroundColor: arc.options.backgroundColor
+                        }
+                    });
+                },
+                afterDraw: (chart) => {
+                    const {
+                        ctx,
+                        canvas
+                    } = chart;
+
+                    chart.getDatasetMeta(0).data.forEach(arc => {
+                        const startAngle = Math.PI / 2 - arc.startAngle;
+                        const endAngle = Math.PI / 2 - arc.endAngle;
+
+                        ctx.save();
+                        ctx.translate(arc.round.x, arc.round.y);
+                        ctx.fillStyle = arc.options.backgroundColor;
+                        ctx.beginPath();
+                        ctx.arc(arc.round.radius * Math.sin(endAngle), arc.round.radius * Math.cos(endAngle), arc.round.thickness, 0, 2 * Math.PI);
+                        ctx.closePath();
+                        ctx.fill();
+                        ctx.restore();
+                    });
+                }
+            }]
+        });
+
+        // End: Rounded Doughnut Chart
+
+
+        // Start: Curve Line Chart
+
+        var options = {
+            series: [{
+                name: 'Survey Response',
+                data: [40, 60, 90, 55]
+            }, {
+                name: 'Projected Savigs',
+                data: [10, 40, 70, 80,]
+            }],
+            colors: ["#00AB55", "#FFAB00"],
+            chart: {
+                height: 330,
+                type: 'area',
+                toolbar: {
+                    show: false
+                },
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                curve: 'smooth',
+                width: 2,
+            },
+            fill: {
+                type: 'gradient',
+                gradient: {
+                    shadeIntensity: 1,
+                    inverseColors: false,
+                    opacityFrom: 0.45,
+                    opacityTo: 0.05,
+                    stops: [20, 100, 100, 100]
+                },
+            },
+            xaxis: {
+                type: 'category',
+                categories: ["Quarter 1", "Quarter 2", "Quarter 3", "Quarter 4"]
+            },
+            tooltip: {
+                x: {
+                    format: 'dd/MM/yy HH:mm'
+                },
+            },
+            legend: {
+                position: 'top',
+                horizontalAlign: 'right',
+            },
+        };
+
+        var chart = new ApexCharts(document.querySelector("#curveLineChart"), options);
+        chart.render();
+        // End: Curve Line Chart
+
+        // Start: Bubble Chart
+        var options = {
+            colors: ["#00AB55", "#00B8D9"],
+            chart: {
+                type: 'scatter',
+                height: 343,
+                zoom: {
+                    enabled: false,
+                    type: "xy"
+                },
+                toolbar: {
+                    show: false
+                }
+            },
+            series: [{
+                name: 'Estimate',
+                data: [10, 15, 4, 12, 17]
+            },
+            {
+                name: 'Actual',
+                data: [12, 10, 12, 5, 12]
+            }
+            ],
+            xaxis: {
+                type: "category",
+                categories: ["Q1", "Q2", "Q3", "Q4", "Q5"],
+                tickAmount: 5,
+                tickPlacement: 'between'
+            },
+            yaxis: {
+                tickAmount: 7
+            },
+            markers: {
+                size: 10,
+                strokeWidth: 0,
+            },
+            legend: {
+                show: false
+            }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#bubbleChart"), options);
+
+        chart.render();
+
+        // End: Bubble Chart
+    </script>
+
+
+</body>
+
+</html>

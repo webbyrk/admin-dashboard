@@ -1,0 +1,29 @@
+:root,
+[data-bs-theme=light] {
+  --main-text-color: #2b2b2b;
+  --main-color: #fff;
+  --dashboard-color: #f8f9fa;
+  --menu-text: #637381;
+  --gray-color: #F5F8FB;
+  --light-dark-button: #EBEDF0;
+  --log-user-head: #212b36;
+  --theme-text-black: #212B36;
+  --theme-text-gray: #637381;
+  --welcome-box-image-opacity: 1;
+  --apex-chart-color: #373d3f;
+}
+
+[data-bs-theme=dark] {
+  color-scheme: dark;
+  --main-text-color: #fff;
+  --main-color: #212529;
+  --dashboard-color: #1f2d3d;
+  --menu-text: #fff;
+  --gray-color: #1f2d3d;
+  --light-dark-button: #1f2d3d;
+  --log-user-head: #fff;
+  --theme-text-black: #fff;
+  --theme-text-gray: #b3b3b3;
+  --welcome-box-image-opacity: 0.3;
+  --apex-chart-color: #cccccc;
+}

@@ -1,0 +1,470 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+@import url('variables.css');
+@import url('sidebar.css');
+@import url('topbar.css');
+
+:root {
+	--theme-font: "Public Sans", sans-serif;
+}
+
+
+/* Start: Global */
+html {
+	font-family: var(--theme-font);
+	font-size: 14px;
+}
+
+body {
+	font-family: var(--theme-font);
+	overflow-x: hidden !important;
+	font-size: 14px;
+	color: var(--main-text-color);
+	background-color: var(--main-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	line-height: 1.4;
+	font-weight: 600;
+}
+
+::-moz-selection {
+	background: rgba(0, 171, 85, 0.9);
+	color: #ffffff;
+}
+
+::selection {
+	background: rgba(0, 171, 85, 0.9);
+	color: #ffffff;
+}
+
+a {
+	text-decoration: none !important;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+p {
+	line-height: 1.6;
+}
+
+.material-symbols-outlined {
+	color: transparent;
+}
+
+.no-toggle-icon .dropdown-toggle::after {
+	display: none;
+}
+
+.dropdown-primary .dropdown-menu .dropdown-item.active,
+.dropdown-primary .dropdown-menu .dropdown-item.focus,
+.dropdown-primary .dropdown-menu .dropdown-item:active,
+.dropdown-primary .dropdown-menu .dropdown-item:focus,
+.dropdown-primary .dropdown-menu .dropdown-item:hover {
+	background-color: transparent;
+	color: #00ab55 !important;
+}
+
+.page-wrapper {
+	height: 100vh;
+}
+
+.page-wrapper .page-content {
+	display: inline-block;
+	width: 100%;
+	padding-left: 0;
+	overflow-x: hidden;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.page-wrapper .page-content .layout-specing {
+	padding: 114px 30px 24px;
+	min-height: calc(100vh - 10px);
+	position: relative;
+}
+
+.extra-shadow {
+	box-shadow: 0 12px 24px 0 rgba(145, 158, 171, .12);
+}
+
+.extra-rounded {
+	border-radius: 16px;
+}
+
+.form-select:focus {
+	border-color: inherit;
+	outline: 0;
+	box-shadow: none;
+}
+
+.gray-select {
+	background-color: var(--gray-color) !important;
+}
+
+.fw-sb-select {
+	font-weight: 600;
+}
+
+.fw-sb-select option {
+	font-weight: 400;
+}
+
+.bg-light {
+	background-color: var(--dashboard-color) !important;
+}
+
+@media screen and (min-width: 1200px) {
+	.page-wrapper.toggled .page-content {
+		padding-left: 280px;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.page-wrapper .page-content .layout-specing {
+		padding: 94px 10px 24px;
+	}
+}
+
+/* End: Global */
+
+/* Start: Dashboard */
+/* Welcome */
+.welcome {
+	background: -webkit-linear-gradient(135deg, #daf6e3 0%, #cdefdd 100%);
+	/* For Safari 5.1 to 6.0 */
+	background: -moz-linear-gradient(135deg, #daf6e3 0%, #cdefdd 100%);
+	/* For Firefox 3.6 to 15 */
+	background: -o-linear-gradient(135deg, #daf6e3 0%, #cdefdd 100%);
+	/* For Opera 11.1 to 12.0 */
+	background: -ms-linear-gradient(135deg, #daf6e3 0%, #cdefdd 100%);
+	/* For Internet Explorer 10 */
+	background: linear-gradient(135deg, #daf6e3 0%, #cdefdd 100%);
+	/* Standard syntax */
+	border-radius: 16px;
+	padding: 35px 40px;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+
+}
+
+.welcome-text-head {
+	color: #005249;
+	font-size: 24px;
+	margin: 0;
+	font-weight: 700;
+}
+
+.welcome-text-head-span {
+	/* padding-right: 10px; */
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+}
+
+.welcome-text-head-span img {
+	margin: 0 8px 0 10px;
+}
+
+.welcome-text-back {
+	font-size: 24px;
+	color: #145D55;
+	font-weight: 600;
+	margin: 0;
+	padding-top: 4px;
+}
+
+.leadership-text {
+	display: flex;
+	align-items: flex-start;
+}
+
+.leadership-text-head {
+	font-size: 14px;
+	color: #5f6b65;
+	font-weight: 400;
+	margin: 0;
+}
+
+.leadership-text-desc {
+	margin: 0;
+	font-size: 20px;
+	color: #363D3C;
+	font-weight: 600;
+	padding: 7px 0 0;
+}
+
+.leadership-text-box {
+	margin-right: 48px;
+	margin-top: 16px;
+}
+
+.leadership-text-box {
+	margin-right: 48px;
+}
+
+.leadership-text-box:last-child {
+	margin-right: 0;
+}
+
+.welcome-groth-box {
+	padding: 24px;
+	background-color: var(--main-color);
+	box-shadow: 0 12px 24px 0 rgba(145, 158, 171, .12);
+	border-radius: 16px;
+	min-width: 211px;
+	background-repeat: no-repeat;
+	background-position: right top;
+	position: relative;
+}
+
+.welcome-groth-bg {
+	height: 70px;
+	width: 78px;
+	z-index: 1;
+	position: absolute;
+	right: 0;
+	top: 0;
+	pointer-events: none;
+	opacity: var(--welcome-box-image-opacity);
+}
+
+.welcome-groth-box.green .welcome-groth-icon {
+	background-color: #01ab55;
+}
+
+.welcome-groth-box.blue .welcome-groth-icon {
+	background-color: #01b8d9;
+}
+
+.welcome-groth-icon {
+	width: 32px;
+	height: 32px;
+	border-radius: 100px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.welcome-groth-head {
+	font-size: 14px;
+	color: var(--theme-text-black);
+	font-weight: 600;
+	margin: 12px 0 5px;
+}
+
+.welcome-groth-desc {
+	font-size: 32px;
+	color: var(--theme-text-black);
+	font-weight: 700;
+	margin: 0 0 9px;
+}
+
+.welcome-groth {
+	display: flex;
+	gap: 24px;
+}
+
+.welcome-groth-imp-txt {
+	font-size: 14px;
+	margin: 0 7px 0 0;
+	font-weight: 600;
+	color: var(--theme-text-black);
+}
+
+.welcome-groth-imp-icon {
+	min-height: 24px;
+	min-width: 24px;
+	background: #def3ea;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 30px;
+}
+
+@media only screen and (max-width: 575px) {
+	.welcome-groth {
+		gap: 0;
+		width: 100%;
+	}
+
+	.welcome-groth-box {
+		width: 100%;
+	}
+
+	.welcome {
+		padding: 35px 30px 30px;
+	}
+}
+
+
+/* Overall */
+.overall-box {
+	border-radius: 16px;
+	padding: 40px 20px;
+	text-align: center;
+}
+
+.overall-box.green {
+	background-color: #c8facd;
+}
+
+.overall-box.green .overall-box-icon {
+	box-shadow: inset -13px -15px 14px #9deab3;
+	background: #bdf6c6;
+}
+
+.overall-box.green .overall-box-head,
+.overall-box.green .overall-box-desc {
+	color: #005249;
+}
+
+.overall-box.blue {
+	background-color: #cafdf5;
+}
+
+.overall-box.blue .overall-box-icon {
+	box-shadow: inset -13px -15px 14px #a3f0f0;
+	background: #bff9f4;
+}
+
+.overall-box.blue .overall-box-head,
+.overall-box.blue .overall-box-desc {
+	color: #003768;
+}
+
+.overall-box.yellow {
+	background-color: #fff5cc;
+}
+
+.overall-box.yellow .overall-box-icon {
+	box-shadow: inset -13px -15px 14px #ffe6a4;
+	background: #ffefc0;
+}
+
+.overall-box.yellow .overall-box-head,
+.overall-box.yellow .overall-box-desc {
+	color: #7a4100;
+}
+
+.overall-box.orange {
+	background-color: #ffe9d5;
+}
+
+.overall-box.orange .overall-box-icon {
+	box-shadow: inset -13px -15px 14px #ffcbb4;
+	background: #ffe3cd;
+}
+
+.overall-box.orange .overall-box-head,
+.overall-box.orange .overall-box-desc {
+	color: #7a0916;
+}
+
+.overall-box-icon {
+	height: 64px;
+	width: 64px;
+	margin: 0 auto;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 60px;
+	margin: 0 0 25px;
+}
+
+.overall-box-head {
+	font-size: 32px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.overall-box-desc {
+	font-size: 14px;
+	font-weight: 600;
+	margin: 4px 0 0;
+	opacity: 0.72;
+}
+
+/* Donut box */
+.donut-box {
+	padding: 15px 10px;
+}
+
+.donut-text {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	max-width: calc(100% - 146px);
+	width: 100%;
+	text-align: center;
+	transform: translateY(-50%);
+	pointer-events: none;
+}
+
+.percent {
+	font-size: 21px;
+	font-weight: 700;
+	color: var(--theme-text-black);
+	margin: 0;
+}
+
+.price {
+	margin: 0;
+	font-size: 11px;
+	color: var(--theme-text-gray);
+}
+
+.chart-text-head {
+	font-size: 18px;
+	color: var(--theme-text-black);
+	font-weight: 700;
+}
+
+.chart-text-desc {
+	font-size: 14px;
+	color: var(--theme-text-gray);
+	font-weight: 400;
+}
+
+.chart-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.apexcharts-data-labels,
+.apexcharts-datalabels text,
+.apexcharts-xaxis text,
+.apexcharts-yaxis text,
+.apexcharts-legend-text {
+	font-family: var(--theme-font) !important;
+	fill: var(--apex-chart-color) !important;
+	color: var(--apex-chart-color) !important;
+}
+
+.apexcharts-tooltip,
+.apexcharts-tooltip-title {
+	background: var(--main-color) !important;
+}
+
+@media only screen and (max-width: 575px) {
+	.donut-box {
+		padding: 15px 0;
+	}
+}
+
+/* End: Dashboard */

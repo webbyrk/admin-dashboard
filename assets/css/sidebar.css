@@ -1,0 +1,342 @@
+/* Start: Sidebar */
+.page-wrapper.toggled .sidebar-wrapper {
+	left: 0;
+}
+
+.page-wrapper .sidebar-wrapper {
+	-webkit-box-shadow: 0 0 3px rgba(60, 72, 88, .15);
+	box-shadow: 0 0 3px rgba(60, 72, 88, .15);
+	background-color: var(--main-color);
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+	width: 280px;
+	height: 100%;
+	max-height: 100%;
+	position: fixed;
+	top: 0;
+	left: -280px;
+	z-index: 999;
+}
+
+
+.page-wrapper .sidebar-wrapper .sidebar-content {
+	max-height: 100vh;
+	height: 100vh;
+	overflow-y: auto;
+	position: relative;
+}
+
+/* Start: User Info */
+.log-user {
+	display: flex;
+	align-items: center;
+	padding: 16px 20px;
+	background: var(--gray-color);
+	border-radius: 12px;
+}
+
+.log-user-img {
+	min-width: 40px;
+	min-height: 40px;
+	background-position: center;
+	background-size: cover;
+	border-radius: 50px;
+	background-color: #FFCD66;
+	margin-right: 16px;
+}
+
+.log-user-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.log-user-heading {
+	color: var(--log-user-head);
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.log-user-role {
+	color: #919eab;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+/* End: User Info */
+
+
+/* *********** */
+
+.sidebar-menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar-menu>li {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar-menu>li.treeview a {
+	padding-right: 35px;
+}
+
+.sidebar-menu>li>a {
+	padding: 13px 16px;
+	display: flex;
+	align-items: center;
+	border-radius: 8px;
+	position: relative;
+
+}
+
+.treeview.active .sidebar-chev {
+	transform: translateY(-50%) rotate(90deg);
+	color: #00ab55;
+}
+
+.sidebar-menu>li>a:hover .sidebar-chev {
+	color: #00ab55;
+}
+
+.sidebar-menu>li>a .sidebar-chev {
+	position: absolute;
+	right: 10px;
+	font-size: 21px;
+	top: 50%;
+	transform: translateY(-50%);
+	overflow: hidden;
+	width: 20px;
+	color: var(--menu-text);
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease;
+	color: var(--menu-text);
+}
+
+.sidebar-menu>li>a .treeview-menu-self {
+	font-size: 14px;
+	display: inline-flex;
+	color: var(--menu-text);
+}
+
+.sidebar-menu>li>a:hover .treeview-menu-self {
+	color: #00ab55;
+}
+
+.sidebar-menu>li.active>a .treeview-menu-self {
+	color: #00ab55;
+}
+
+.sidebar-menu>li:hover>a,
+.sidebar-menu>li.active>a {
+	background: #ebf9f1;
+}
+
+.sidebar-menu>li>.treeview-menu {
+	margin: 0 1px;
+}
+
+.sidebar-menu>li .label,
+.sidebar-menu>li .badge {
+	margin-top: 3px;
+	margin-right: 5px;
+}
+
+.sidebar-menu li.sidebar-head {
+	padding: 24px 16px 12px;
+	font-size: 12px;
+	color: var(--menu-text);
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+
+.sidebar-menu li>a:hover .sidebar-menu-icon {
+	font-variation-settings: 'FILL' 1, 'wght' 700, 'GRAD' 0, 'opsz' 48;
+}
+
+.sidebar-menu>li.active>a .sidebar-menu-icon {
+	font-variation-settings: 'FILL' 1, 'wght' 700, 'GRAD' 0, 'opsz' 48;
+}
+
+.sidebar-menu li>a .sidebar-menu-icon {
+	min-width: 24px;
+	overflow: hidden;
+	display: inline-flex;
+	margin-right: 8px;
+	font-variation-settings: 'FILL' 0, 'wght' 700, 'GRAD' 0, 'opsz' 48;
+}
+
+.sidebar-menu li>a .sidebar-menu-icon .material-symbols-outlined {
+	font-size: 22px;
+	color: var(--menu-text);
+}
+
+.sidebar-menu li>a:hover .sidebar-menu-icon .material-symbols-outlined {
+	color: #00ab55;
+}
+
+.sidebar-menu>li.active>a .sidebar-menu-icon .material-symbols-outlined {
+	color: #00ab55;
+}
+
+.sidebar-menu li.active>.treeview-menu {
+	display: block;
+}
+
+.sidebar-menu .treeview-menu {
+	display: none;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	padding-left: 5px;
+}
+
+.sidebar-menu .treeview-menu {
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.sidebar-menu .treeview-menu>li {
+	margin: 0;
+}
+
+.sidebar-menu .treeview-menu>li>a {
+	padding: 10px 15px;
+	display: block;
+	font-size: 14px;
+	color: var(--menu-text);
+}
+
+
+.sidebar-menu .treeview-menu>li.active>a,
+.sidebar-menu .treeview-menu>li>a:hover {
+	color: #00ab55;
+}
+
+.sidebar-menu .sidebar-menu-label {
+	background-color: #ffe4dd;
+	display: inline-flex;
+	align-items: center;
+	padding: 2px 8px;
+	border-radius: 6px;
+}
+
+.sidebar-menu .sidebar-menu-label .sidebar-menu-label-in {
+	color: #b71d18;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.sidebar-menu .treeview-menu-text {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+}
+
+.sidebar-menu .treeview-menu-text .treeview-menu-text-a {
+	display: inline-flex;
+	align-items: center;
+}
+
+.sidebar-menu .treeview-menu-text .treeview-menu-text-b {
+	display: inline-flex;
+	align-items: center;
+}
+
+.page-wrapper.toggled .switch-sidebar {
+	left: 260px;
+	transform: rotate(0);
+}
+
+.switch-sidebar {
+	left: -90px;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+	position: fixed;
+	top: 50%;
+	cursor: pointer;
+	height: 40px;
+	width: 40px;
+	border: 1px solid #EBEEF1;
+	background-color: #fff;
+	border-radius: 100px;
+	justify-content: center;
+	align-items: center;
+	/* cursor: pointer; */
+	z-index: 999;
+	transform: rotate(180deg);
+	display: inline-flex;
+}
+
+.sidebar-handle {
+	display: block;
+}
+
+.page-wrapper.toggled .sidebar-handle {
+	display: none;
+}
+
+.page-wrapper .menu-shadow {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .55);
+	top: 0;
+	left: 0;
+	z-index: 999;
+	display: none;
+}
+
+.page-wrapper.toggled .menu-shadow {
+	display: none;
+}
+
+.sidebar-brand .brand {
+	color: var(--main-text-color);
+	font-size: 40px;
+}
+
+/* End: Sidebar */
+
+
+@media screen and (max-width: 1199px) {
+	.page-wrapper .sidebar-wrapper {
+		left: 0;
+		z-index: 1000;
+	}
+
+	.page-wrapper.toggled .sidebar-wrapper {
+		left: -280px;
+	}
+
+	.sidebar-brand>a>img {
+		max-height: 50px;
+	}
+
+	.page-wrapper.toggled .switch-sidebar {
+		left: -60px;
+	}
+
+	.page-wrapper .switch-sidebar {
+		display: inline-flex;
+		left: 260px;
+		transform: rotate(0);
+		display: inline-flex;
+		z-index: 1001;
+		top: 22px;
+	}
+
+	.sidebar-handle {
+		display: block !important;
+	}
+
+	.page-wrapper .menu-shadow {
+		display: block;
+	}
+}
